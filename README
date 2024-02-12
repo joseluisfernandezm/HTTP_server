@@ -1,0 +1,18 @@
+Nombre del proyecto: Practica1_Jose_Luis_Fernandez_Moreno
+Autor:Jose Luis Fernandez Moreno <joseluis.fernandezm@estudiante.uam.es>
+fecha:05/11/2020
+
+Tras descomprimir el .zip encontraras dentro de esta carpeta:
+
+1.El archivo HTTPServidor.c, con el codigo en C del programa
+
+2.makefile para generar ejecutable 
+
+3.ARedes1.txt que contiene el puerto que vamos a usar, la direccion de la carpeta en donde se van a guardar los recursos del servidor y el nombre del archivo por defecto en caso de que el cliente no solicite uno en específico
+
+4. Recursos, carpeta es la que se almacenaran los mismos, si se desease cambiar se debería ajustar el archivo ARedes.txt cambiando el segundo parametro (la ruta)
+
+El objetivo de este programa es el de recibir, procesar y responder peticiones HTTP a un cliente. Siendo capaz de suministrar archivo .html, .gif, .pdf, .png, .jpg, .mp3, .mp4.
+
+Para ello hay que especificar en ARedes1.txt cual va a ser la ruta de los recursos y el nombre de aquel usado por defecto
+
